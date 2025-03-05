@@ -1,0 +1,97 @@
+.dibujo {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80vmin;
+    height: 80vmin;
+  }
+  
+  .dibujo div {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .b {
+    border: 0.5vmin solid;
+  }
+  
+  .r {
+    border-radius: 100%;
+  }
+  
+  .hb::before,
+  .ha::after {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  /****/
+  html, body {
+    background-color: #e8e8e8;
+    background-image: radial-gradient(at 50% 75%, rgba(0,0,0,0.3), transparent);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dibujo {
+    --tooth: #eea;
+    --tooth-line: #cc9;
+    --fur: #fff;
+    --skin: #adf;
+    --skin-dark: #7ac;
+    --eye: #236;
+    --light: #eee;
+  }
+ 
+ 
+  
+ 
+
+  
+
+  
+
+  
+  .piernas {
+    width: 40%;
+    height: 36%;
+    bottom: 5px;;
+    left: 50%;
+    border-radius: 100% 100% 20% 20% / 120%;
+    box-shadow: inset 7vmin 5vmin 0 4vmin var(--fur), inset -7vmin 5vmin 0 4vmin var(--fur), inset 0 7vmin 0 4vmin var(--fur);
+  }
+  
+  .piernas::after, 
+  .piernas::before {
+    width: 13vmin;
+    height: 6vmin;
+    background: var(--skin);
+    bottom: 0;
+    left: -2vmin;
+    border-radius: 20vmin 10vmin 0 0;
+    background-image: linear-gradient(var(--skin) 50%, transparent), linear-gradient(to right, transparent 95%, rgba(0,0,0,0.2) 0);
+    background-size: 100% 100%, 26% 100%;
+  }
+  
+  .piernas::after {
+    transform: scaleX(-1);
+    left: auto;
+    right: -1.5vmin;
+  }
+ 
+  
+ 
+ 
+
+  
+  
+  
