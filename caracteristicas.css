@@ -30,7 +30,7 @@
     --skin: #fca;
     --dark: #e96;
     --hair: #630;
-    --robe: #222;
+    --robe: #0c702a;
     width: 80vmin;
     height: 80vmin;
   }
@@ -38,7 +38,7 @@
   .cartoon::after {
     width: 120%;
     bottom: 0;
-    border-top: 1vmin solid black;
+    border-top: 1vmin solid rgb(219, 33, 33);
     left: 50%;
     transform: translate(-50%, 25%);
   }
