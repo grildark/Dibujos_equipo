@@ -51,24 +51,26 @@
     --eye: #236;
     --light: #eee;
   }
- 
- 
-  
- 
 
+ 
   
-
-  
-
-  
-  .piernas {
+ 
+.piernas{
     width: 40%;
     height: 36%;
     bottom: 5px;;
     left: 30%;
-    border-radius: 100% 100% 20% 20% / 120%;
-    box-shadow: inset 7vmin 5vmin 0 4vmin var(--fur), inset -7vmin 5vmin 0 4vmin var(--fur), inset 0 7vmin 0 4vmin var(--fur);
-  }
+  
+
+
+
+}
+  
+
+  
+
+  
+ 
   
   .piernas::after, 
   .piernas::before {
@@ -140,12 +142,3 @@
     left: 15%;
     border: 0.25vmin solid var(--tooth-line);
   }
-
-
-
-
-
-
-
- 
-  
